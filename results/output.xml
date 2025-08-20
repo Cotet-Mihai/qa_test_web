@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.11 on win32)" generated="2025-08-20T22:56:28.051691" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\Users\mc_mi\OneDrive\Desktop\QA_Test\tests">
+<suite id="s1-s1" name="Gui" source="C:\Users\mc_mi\OneDrive\Desktop\QA_Test\tests\gui">
+<suite id="s1-s1-s1" name="Register User" source="C:\Users\mc_mi\OneDrive\Desktop\QA_Test\tests\gui\register_user.robot">
+<test id="s1-s1-s1-t1" name="Valid" line="7">
+<kw name="Launch Browser" owner="core">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-20T22:56:28.352105" level="INFO">Opening browser 'firefox' to base url 'about:blank'.</msg>
+<arg>about:blank</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-20T22:56:28.352105" elapsed="5.292645"/>
+</kw>
+<arg>firefox</arg>
+<status status="PASS" start="2025-08-20T22:56:28.348907" elapsed="5.295843"/>
+</kw>
+<kw name="Navigate To URL" owner="core">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2025-08-20T22:56:33.646082" level="INFO">Opening url 'https://automationexercise.com/'</msg>
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2025-08-20T22:56:33.646082" elapsed="2.790483"/>
+</kw>
+<kw name="Say Hello" owner="say_hello">
+<msg time="2025-08-20T22:56:36.436565" level="INFO">Buna siua Mihai
+Buna siua Mihai
+Buna siua Mihai</msg>
+<arg>Mihai</arg>
+<arg>0</arg>
+<status status="PASS" start="2025-08-20T22:56:36.436565" elapsed="0.000000"/>
+</kw>
+<arg>${BASE_URL}</arg>
+<status status="PASS" start="2025-08-20T22:56:33.646082" elapsed="2.792846"/>
+</kw>
+<status status="PASS" start="2025-08-20T22:56:28.348907" elapsed="8.090021"/>
+</test>
+<status status="PASS" start="2025-08-20T22:56:28.086000" elapsed="8.352928"/>
+</suite>
+<status status="PASS" start="2025-08-20T22:56:28.084493" elapsed="8.356550"/>
+</suite>
+<status status="PASS" start="2025-08-20T22:56:28.051691" elapsed="8.390517"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="1" fail="0" skip="0">Tests</stat>
+<stat name="Gui" id="s1-s1" pass="1" fail="0" skip="0">Tests.Gui</stat>
+<stat name="Register User" id="s1-s1-s1" pass="1" fail="0" skip="0">Tests.Gui.Register User</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
