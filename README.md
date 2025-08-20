@@ -21,4 +21,4 @@ The tests are performed on [Automation Exercise](https://automationexercise.com)
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/Cotet-Mihai/qa_test_web/tree/main
